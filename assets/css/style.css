@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
 
 * {
   margin: 0;
@@ -13,6 +13,14 @@ body {
 
 a {
   text-decoration: none;
+}
+
+.container {
+  padding: 20px 40px;
+}
+
+img {
+  max-width: 100%;
 }
 
 nav {
@@ -35,7 +43,7 @@ nav {
   line-height: 32.74px;
   letter-spacing: 0.25em;
   text-align: left;
-  color: #3E3F43;
+  color: #3e3f43;
 }
 
 .links-list {
@@ -47,11 +55,11 @@ nav {
 .links-item {
   font-size: 30px;
   font-weight: 400;
-  transition: font-weight 0.7s; 
+  transition: font-weight 0.7s;
 }
 
-.links-item a{
-    color: #612999;
+.links-item a {
+  color: #612999;
 }
 
 .links-item:hover {
@@ -62,46 +70,116 @@ nav {
   font-weight: 700;
 }
 
-header{
-    height: 797px;
-    background-image: url('../images/Smoothies/headerImg.jpg');
-    background-position: center;
-    background-size: cover;
-    padding: 20px 40px;
+header {
+  height: 797px;
+  background-image: url("../images/headerimg.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
-.page-title{
-    font-size: 96px;
-    color: #612999;
-    font-weight: 800;
+.page-title {
+  font-size: 96px;
+  color: #612999;
+  font-weight: 800;
 }
 
-.page-subtitle{
-    max-width: 500px;
-    font-size: 24px;
-    font-weight: 600;
+.page-subtitle {
+  max-width: 500px;
+  font-size: 24px;
+  font-weight: 600;
 }
 
-.section-title{
-    font-family: 'Rubik';
-font-size: 40px;
-font-weight: 500;
-line-height: 40px;
-text-align: left;
-color: #612999;
-
+.section-title {
+  font-family: "Rubik";
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 40px;
+  text-align: left;
+  color: #612999;
 }
 
-.about-section{
-    padding: 20px 40px;
+.about-section p {
+  margin-top: 20px;
+  font-family: "Rubik";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28.13px;
+  text-align: justify;
 }
 
-.about-section p{
-    margin-top: 20px;
-    font-family: 'Rubik';
-font-size: 20px;
-font-weight: 400;
-line-height: 28.13px;
-text-align: justify;
+.card-list {
+  margin-top: 20px;
+  display: flex;
+  column-gap: 30px;
+  flex-wrap: wrap;
+}
 
+.card {
+  position: relative;
+  width: 376px;
+  height: 450px;
+}
+
+.product-img{
+    width: 376px;
+    height: 211px;
+    border-radius: 25px;
+}
+
+.card-details {
+  padding: 0px 25px;
+  font-family: Abel;
+  font-weight: 400;
+}
+
+.card-details h3 {
+  font-size: 30px;
+  line-height: 38.23px;
+  text-align: justify;
+  margin-bottom: 5px;
+}
+
+.card-details p {
+  font-size: 18px;
+  line-height: 22.94px;
+  text-align: left;
+}
+
+.price-cart {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price-cart span {
+  font-size: 35px;
+  line-height: 44.6px;
+  text-align: justify;
+  color: #612999;
+}
+
+.cart-btn {
+  width: 63px;
+  height: 63px;
+  background-color: #612999;
+  border-radius: 50px;
+  border: 0;
+  transition: background-color 0.4s;
+}
+
+.cart-btn:hover {
+  background-color: #7d58a1;
+}
+
+.fav-btn {
+    position: absolute;
+  width: 47px;
+  height: 47px;
+  top: 20px;
+  right: 40px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
