@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
 
 * {
   margin: 0;
@@ -78,4 +80,28 @@ header{
     max-width: 500px;
     font-size: 24px;
     font-weight: 600;
+}
+
+.section-title{
+    font-family: 'Rubik';
+font-size: 40px;
+font-weight: 500;
+line-height: 40px;
+text-align: left;
+color: #612999;
+
+}
+
+.about-section{
+    padding: 20px 40px;
+}
+
+.about-section p{
+    margin-top: 20px;
+    font-family: 'Rubik';
+font-size: 20px;
+font-weight: 400;
+line-height: 28.13px;
+text-align: justify;
+
 }
