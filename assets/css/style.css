@@ -59,3 +59,23 @@ nav {
 .active-page {
   font-weight: 700;
 }
+
+header{
+    height: 797px;
+    background-image: url('../images/Smoothies/headerImg.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 20px 40px;
+}
+
+.page-title{
+    font-size: 96px;
+    color: #612999;
+    font-weight: 800;
+}
+
+.page-subtitle{
+    max-width: 500px;
+    font-size: 24px;
+    font-weight: 600;
+}
